@@ -4,12 +4,12 @@ int main()
 {
     int n;
     cin>>n;
-    int a[n],i,p1=0,p2=0,f=1;    //p1 and p2 are persons all card number
+    int a[n],i,p1=0,p2=0,f=1;//p1 and p2 are persons all card number
     for(i=0;i<n;i++)
     {
-        cin>>a[i];    //all card number inputing
+        cin>>a[i];//all card number inputing
     }
-    int l=0,r=n-1;    //l is left and r is right position
+    int l=0,r=n-1;//l is left and r is right position
     while(l<=r)
     {
         if(a[l]>a[r])
