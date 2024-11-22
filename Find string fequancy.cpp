@@ -25,7 +25,7 @@ int main()
             if(cnt[v[i]]==2)
                 result++;
         }
-        cout<<result<<endl;
+        cout<<result/2<<endl;
         v.clear();
     }
     return 0;
